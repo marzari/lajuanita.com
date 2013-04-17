@@ -1,0 +1,72 @@
+/*
+
+	   name: Ermark Options Panel
+	 author: Nicolae Gabriel
+	version: 0.3.0
+	
+
+*/
+
+	#setup h2 								{ background:#FF4500;margin:15px 0 0 0;height:25px; }
+	#setup label 							{ display:block; }
+	#setup p 								{ background:green; }
+	
+	#setup .tab_ct_01						{ display:block; }
+	#setup .tab_ct_02						{ display:none; }
+	#setup .tab_ct_03						{ display:none; }
+	#setup .tab_ct_04						{ display:none; }
+	#setup .tab_ct_05						{ display:none; }
+	#setup .tab_ct_06						{ display:none; }
+	#setup .tab_ct_07						{ display:none; }
+	#setup .tab_ct_08						{ display:none; }
+	
+	#setup .ui-checkbox 					{ }
+	#setup .ui-checkbox label				{ display:inline; }
+	
+	#setup .toolbar 						{ height:60px;margin:25px 15px 15px 0;background:url('../images/back-setup-dash.png') repeat-x left top;-moz-border-radius:4px;-webkit-border-radius:4px;}
+	#setup .toolbar-dashed					{ background:url('../images/back-setup-line.png') no-repeat 40px 2px;padding-top:5px;padding-right:15px; }
+	#setup .toolbar h3						{ background:url('../images/back-setup-logo.png') no-repeat left center;color:#fff;font-family:"trebuchet ms", verdana, arial;margin:10px;padding-left:40px;height:35px;font-size:20px;line-height:20px;float:left; }
+	#setup .toolbar h3 span					{ font-size:11px;display:block;color:#cfcfcf;line-height:11px;font-weight:normal;}
+	
+	#setup .toolbar-body a 					{ padding:5px;background:grey;color:#fff;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;text-decoration:none; }
+	#setup .toolbar-body a:link				{}
+	#setup .toolbar-body a:visited			{}
+	#setup .toolbar-body a:hover			{ background:lightgrey;color:grey;}
+	#setup .toolbar-body a:active			{}
+	
+	#setup .toolbar .tools					{ height:30px;float:right;padding:5px 10px;padding-top:10px;margin-top:5px;}
+	
+	#setup .tabs							{ height:34px;margin-bottom:0px;padding-left:25px;}
+	#setup .tabs li 						{ float:left;height:33px;background:#ebebeb;color:#21759b;margin:0 2px;padding:0 10px;line-height:35px;-moz-border-radius-topleft:4px;-moz-border-radius-topright:4px;-webkit-border-top-left-radius:4px;-webkit-border-top-right-radius:4px;text-shadow:0px 1px #ffffff;font-weight:bold;border-left:1px solid #cccccc;border-right:1px solid #cccccc;border-top:1px solid #cccccc;cursor:pointer; }
+	#setup .tabs li.selected 				{ background:#e5e5e5;height:35px;color:#615858;border-left:1px solid #dcdcdc;border-right:1px solid #dcdcdc;border-top:1px solid #dcdcdc; }
+	
+	#setup .full-panel						{ width:730px;padding:15px 0;}
+	#setup .full-content					{ background:#e3e3e3 url('../images/back-full-content.png') repeat-x left top;padding:10px 10px 15px 10px;border:1px solid #dcdcdc;-moz-border-radius:4px;-webkit-border-radius:4px;}
+	
+	#setup .panel							{ margin-bottom:15px; }
+	
+	#setup .panel-bar						{ height:36px;background:url('../images/back-top-section.png') no-repeat left top;padding-left:10px; }
+	#setup .panel-bar>div  					{ height:36px;background:url('../images/back-top-section.png') no-repeat right bottom;padding-right:10px; }
+	#setup .panel-bar>div>div				{ height:36px;background:url('../images/back-top-section.png') repeat-x center center; }
+	
+	#setup .panel-bar h3					{ font-family:'Trebuchet Ms', verdana, arial;color:#424242;margin:0;padding:0;font-size:14px;line-height:36px;text-shadow:0px 1px #cccccc;float:left; }
+	
+	#setup .panel-bar .controls				{ background:url('../images/back-section-controls.png') no-repeat left top;float:right;width:15px;height:16px;margin:10px 5px 0 0; }
+	#setup .panel-bar .controls:hover		{ background-position:right top;}
+	
+	#setup .panel-bar .controls.down		{ background-position:left bottom;}
+	#setup .panel-bar .controls.down:hover	{ background-position:right bottom;}
+	
+	#setup .panel-content					{ background:#F9F9F9 url('../images/back-panel-content.png') repeat-x left top;border:1px solid #b1b1b1;padding:10px;}
+	
+	#setup .field-section 					{ float:left;background: url('../images/back-panel-separator.png') repeat-y right top;width:245px;padding-right:10px;padding-top:10px;padding-bottom:10px; }
+	#setup .field-section h4				{ font-size:13px;margin:0;color:#363636;}
+	#setup .field-section span				{ font-size:11px;color:#363636;line-height:12px;}
+	
+	#setup .section 						{ background:transparent;margin:10px 0;padding:5px 0;height:65px;}
+	
+	#setup .field							{ background:transparent;float:left;padding:15px 5px 10px 5px;width:400px; }
+	#setup .field.tx input					{ width:320px; }
+	#setup .field.ar textarea				{ width:320px; }
+	#setup .field.sl select { width:320px; }
+	#setup .field.ch label					{ display:inline;}

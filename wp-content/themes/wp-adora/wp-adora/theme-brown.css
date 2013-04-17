@@ -1,0 +1,230 @@
+	body 																{ background:#1e1a1a;color:#FFECCB;								}
+	body>div.shadows 														{ display:none; }
+	body>div.shadows .left 												{ background:url('images/brown/shadow-left.png') repeat-y left top; 						}
+	body>div.shadows .right 												{ background:url('images/brown/shadow-right.png') repeat-y right top; 					}
+	
+	#notice-wrapper 													{ background:url('images/brown/band-top.png') no-repeat center top;						}
+	#notice 															{ background:url('images/brown/top_biskit.png') repeat-x center bottom; 					}
+	#notice .bar														{ background:url('images/brown/separator-dots.png') repeat-x center top; 					}
+	#notice .newsletter div 											{ background:url('images/brown/newsletter-field.png') no-repeat center top;				}
+	#notice .newsletter a												{ background:url('images/brown/back-button-subscribe.png'); 								}
+	#notice .newsletter input  											{ color:#3d393a; 	}
+	#notice h3 															{ color:#ffffff;	}
+	#notice p 															{ color:#fef8e8;	}
+	#notice a.touch														{ color:#fef8e8; 	}
+	
+	.single-product .price 												{ background:url('images/brown/separator-dots-prices.png') repeat-x right 32px;  } 
+	.single-product .price span											{ color:#FFECCB; }
+	.textwidget 														{ color:#FFECCB; }
+	
+	#header-wrapper														{ background:url('images/brown/band-top.png') no-repeat center bottom;	 				}
+	#header 																{ background:url('images/brown/classic-logo.png') no-repeat 316px bottom;				}
+	#header .logo  														{ background:url('images/brown/transp-logo.png') no-repeat center center;				}
+	
+	.menuDayOffer														{ background:url('images/brown/back-daymenu.png') no-repeat center left; }
+	.menuDayOffer li a													{ color:#1c1915; }
+	.menuDayOffer li a:link												{ }
+	.menuDayOffer li a:visited											{ }
+	.menuDayOffer li a:hover											{ color:#271c19; }
+	.menuDayOffer li a:active											{ }
+	
+	#notice .reservations label 										{ color:#FEFCE5; }
+	.reservations 														{ background:url('images/brown/back-reservations.png') no-repeat left top; }
+	
+	.reservations .fdName input,	
+	.reservations .phone input,
+	.reservations .fdTime .resTime,
+	.reservations .fdGuest input,
+	.reservations .fdDate .resDate										{ height:35px;background:url('images/brown/back-reservations-field.png') repeat-x left top;border:none;line-height:25px;padding-top:0; }
+	.reservations .btCancel												{ background:transparent;border:none;float:right;color:#FEFCE5;font-size:24px; }
+		
+	.facebook 															{ color:#FFECCB; }
+	
+	.prices li.categ h3													{ color:#efe9a1; }
+	.item-prices 														{ background:url("images/brown/separator-dots-prices.png") no-repeat scroll left 25px; }
+	.item-prices h3 													{ background:url("images/brown/back-body-hash.png") no-repeat center center; }
+	.item-prices h3 a 													{ color:#fefce5; }
+	.item-prices h3 a:link												{ }
+	.item-prices h3 a:visited											{ }
+	.item-prices h3 a:hover												{ text-decoration:none; }
+	.item-prices h3 a:active											{ }
+	
+	.pagination a  														{ color:#7E6D56; }
+	.pagination a.current 												{ color:#efe9a1; }
+	
+	.item-prices span 													{ color:#fef8e8; }
+	
+	#wrapper-prices-top													{ background:url('images/brown/back-menu-top.png') no-repeat center top; 		}
+	#wrapper-prices-center 												{ background:url('images/brown/back-menu-center.png') repeat-y center top;margin-right:20px;	 	}
+	#wrapper-prices-bottom 												{ background:url('images/brown/back-menu-bottom.png') no-repeat center bottom; 	}
+	
+	#slider-wrapper 														{ background:#251e1d;border:1px solid #5b503c;												}
+	#slides 																{ background:#251e1d; 																		}
+	#slider .pager														{ background:url('images/back-slider-shadow.png') no-repeat center top;			}
+	#slider .pager a  													{ background:url('images/brown/slider-nav-pager.png') no-repeat right center;			}
+	
+	#content .badge 														{ background:url('images/brown/from-blog.png') no-repeat center center; 					}
+	#content div.img.comment 												{ background:url('images/brown/back-image-shadow-55.png') no-repeat center bottom; 		}
+	
+	.menu.left li 														{ background:url('images/brown/menu_star.png') no-repeat left 12px; 						}
+	.menu.right li 														{ background:url('images/brown/menu_star.png') no-repeat right 12px; 					}
+	.menu li span															{ color:#ffffff;text-shadow:0 2px #000; 	}
+	.menu input															{ color:#8c8c8c; 	}
+	.menu li.selected	 a													{ color:#c0a77c; 	}
+	.menu li.selected	 span												{ color:#ffffff;text-shadow:0 2px #000; 	}
+	
+	.menu li a																{ color:#fefce5;	}	
+	.menu li a:link														{ 					}
+	.menu li a:visited														{ 					}
+	.menu li a:hover														{ color:#c0a77c;	}
+	
+	.form-button 														{ background:url('images/brown/form-button.png') no-repeat center top;color:#fff; 		}
+	
+	.article .info .tags 													{ color:#c0a77c; 	}
+	.article .info .tags a 												{ color:#c0a77c;font-weight:bold;	}
+	.article .info .tags a:link 											{ }
+	.article .info .tags a:visited										{ }
+	.article .info .tags a:hover											{ color:#fff;}
+	.article .info .tags a:active											{ }
+	
+	.article .info span.comments 											{ color:#ffffff; 	}
+	.article .info span.date 												{ color:#ffffff; 	}
+	.article .info span.date span 											{ color:#aca699;	}
+	
+	.comment-info .author 												{ color:#FEFCE5; 	}
+	.comment-info span.date 												{ color:#ffffff; 	}
+	.comment-info span.date span 											{ color:#aca699;	}
+	
+	a.reply 																{ color:#ACA699;	}
+	a.reply:link														{ 					}
+	a.reply:visited 														{ 					}
+	a.reply:hover														{ color:#FFECCB; 	}
+
+	.reservations .ctButton  														{ background:url('images/brown/form-button.png') no-repeat center top;color:#fff;height:35px;line-height:25px;display:block;text-decoration:none;font-size:18px;text-align:center;width:110px;padding-left:5px;margin-top:10px;float:left;font-size:16px; }
+	.reservations .ctButton:link 													{ }
+	.reservations .ctButton:visited 												{ }
+	.reservations .ctButton:hover 													{ background-position:center center; }
+	.reservations .ctButton:active													{ background-position:center bottom; }
+	
+	.reservations .btCancel 												{ background:transparent;font-size:22px;float:right;width:inherit;margin-right:15px; }
+	
+	.section.articles div.img li 											{ background:url('images/brown/slider-nav-pager.png') no-repeat right center; 			}
+	.section.articles div.imgLarge li 										{ background:url('images/brown/slider-nav-pager.png') no-repeat right center; 			}
+	.article div.img li 													{ background:url('images/brown/slider-nav-pager.png') no-repeat right center; 			}
+	.section div.img  													{ background:#251e1d;																		}
+	.section div.imgLarge  												{ background:#251e1d; 																		}
+	.section div.img  img 													{ background:url('images/brown/back-border-noise.png');border:1px solid #5b503c;												}
+	.border  															{ background:#221E1A;border:1px solid #5b503c;padding:4px;												}
+	.section div.imgLarge  img 											{ background:url('images/brown/back-border-noise.png');border:1px solid #5b503c; 												}
+	
+	ul.double 															{ background:url('images/brown/double-list-dots.png'); 									}
+	ul.double span														{ color:#7e6d56;	}
+	
+	ul.double a															{ color:#ffeccb; 	}
+	ul.double a:link														{ 					}
+	ul.double a:visited													{ 					}
+	ul.double a:hover														{ color:#ffeccb;text-decoration:underline;	}
+	ul.double a:active													{ 					}
+	
+	
+	ul.dash li 															{ background:url('images/brown/separator-dots.png') repeat-x left top; 					}
+	ul.interviews li 														{ background:url("../images/brown/separator-dots.png") repeat-x left top; 					}
+	ul.interviews a.title 												{ color:#ffeccb; 	}
+	ul.interviews a.title:link											{ 					}
+	ul.interviews a.title:visited											{ 					}
+	ul.interviews a.title:hover											{ color:#ffeccb;text-decoration:underline;	}
+	ul.interviews a.title:active											{ 					}
+	
+	ul.interviews a.comments 												{ background:url('images/brown/img-comments.png') no-repeat 3px 2px;color:#7e6d56;border-left:1px solid #3d393a; }
+	ul.interviews a.comments:link 										{ 					}
+	ul.interviews a.comments:visited										{ 					}
+	ul.interviews a.comments:hover										{ color:#ffeccb;	}
+	ul.interviews a.comments:active 										{ 					}
+	
+	ul.interviews a.author 												{ color:#ffeccb; 	}
+	ul.interviews .date 													{ color:#ffeccb; 	}
+	
+	
+	div.styler															{ color:#c9beaa;	}
+	
+	div.styler a 															{ color:#171717;	}
+	div.styler a:link														{ 					}
+	div.styler a:visited													{ 					}
+	div.styler a:hover													{ color:#ffeccb; 	}
+	div.styler a:active													{ 					}
+
+	.section div.info 													{ color:#c0a77c; 	}
+	.section div.info a 													{ color:#c0a77c; 	}
+	.section div.info span 												{ color:#fefce5;font-size:11px;	}
+	
+	.section.hr 															{ background:url('images/brown/separator-dots.png') repeat-x left center; 				}
+	.hr 																	{ background:url('images/brown/separator-dots.png') repeat-x left center; 				}
+	.section.single-side 												{ background:url('images/brown/back-dots-single-side.png') repeat-y right top;			}
+	.section.double-side 												{ background:url('images/brown/back-dots-double-side.png') repeat-y right top;			}
+	
+	h1>a, h2>a, h3>a, h4>a, h5>a											{ color:#fefce5;	}
+	h1, h2, h3, h4, h5													{ color:#fefce5; 	}
+	blockquote 															{ background:url('images/brown/blockquote.png') no-repeat left top;color:#4a462c;		}
+	ul																	{ color:#fefce5;	}
+	
+	ul a																	{ color:#ffeccb; 	}
+	ul a:link																{ 					}
+	ul a:visited															{ 					}
+	ul a:hover															{ color:#ffeccb;text-decoration:underline;	}
+	ul a:active															{ 					}
+	ul span																{ color:#7e6d56;	}
+	
+	a 																	{ color:#7E6D56; }
+	
+	p																	{ color:#ffeccb;	}
+	p strong 																{ color:#ffeccb; 	}
+	
+	img.border															{ background:#221E1A;border:1px solid #514530;												}
+	img.border:hover													{ background:#ffffff;border:1px solid #b5b5b5; 												}
+	
+	#content .tweets														{ background:url('images/brown/img-bird.png') no-repeat left 10px	}
+	#content .tweets span 												{ color:#fff7e9;	}
+	#content .tweets span strong 											{ color:#fff7e9; 	}
+	
+	#content-wrapper													{ background:url('images/brown/band-bottom.png') no-repeat center bottom;				}
+	#hash-wrapper														{ background:url('images/brown/back-body-hash.png') repeat-y center top; 				}
+	
+	a.collection														{ background:url('images/brown/back-button-collection.png') no-repeat right top;color:#fff;}
+	
+	a.more																{ background:url('images/brown/more-arrow.png') no-repeat right -24px;color:#ffffff; 		}
+	a.more:link															{ 					}
+	a.more:visited														{ 					}
+	a.more:hover														{ color:#ffeccb;background-position:right 8px; 	}
+	a.more:active														{ 					}
+	
+	a.button.more														{ background:url('images/brown/back-button-more.png') no-repeat left top;color:#fff; 	}
+	a.button.more:link													{ 					}
+	a.button.more:visited												{ 					}
+	a.button.more:hover													{ color:#f7f3e0;	}
+	a.button.more:active												{ color:#fff; 		}
+	
+	.form-comment input 													{ background:#f9f8f3;}
+	.form-comment input:focus 												{ background:#fbfbfb;border:1px solid #b7b7b7; 												}
+	
+	.form-comment textarea 												{ background:#f9f8f3;}
+	.form-comment textarea:focus											{ background:#fbfbfb;border:1px solid #b7b7b7; 												}
+	
+	form input																{ background:#ffffff;border:1px solid #5B503C;color:#bdbdbd; 								}
+	form div.input  														{ background:url('images/brown/field_shadow.png'); 										}
+	form div.input														{ background:url('images/brown/field_shadow.png'); 										}
+	form div.size-small input												{ width:140px; }
+	
+	form div.textarea 													{ background:url('images/brown/field_shadow.png');										}
+	textarea 																{ background:#ffffff;border:1px solid #e0dadb;color:#bdbdbd;								}		
+	form label 															{ color:#ffeccb;padding-bottom:2px; 	}
+	
+	#footer-wrapper														{ background:url('images/brown/back-footer-top.jpg') no-repeat center bottom; 			}
+	
+	#footer ul.nav a														{ 					}
+	#footer ul.nav a:link													{ 					}
+	#footer ul.nav a:visited												{ 					}
+	#footer ul.nav a:hover												{ color:#cacaca; 	}
+	
+	#footer ul.nav li														{ color:#fff;		}
+	#footer span.credits													{ color:#fff; 		}
+	#footer ul.nav li a														{ color:#fff;		}

@@ -1,0 +1,16 @@
+#wrapper{
+	width: 480px;	
+	-webkit-text-size-adjust: none; 
+	background: url(images/mobile-light/content_back_landscape.jpg);				
+	}
+#main_menu ul{
+	width: 320px;
+	}			
+#header_logo{
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	}		
+#content{
+	width: 450px;	
+	}	

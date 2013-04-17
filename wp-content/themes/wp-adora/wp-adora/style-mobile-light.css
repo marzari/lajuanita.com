@@ -1,0 +1,216 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	}
+body{	
+	background: url(images/mobile-light/body_background.gif);	
+	font-size:12px;
+	font-family: arial;
+	line-height: 18px;
+	color: #3d393a;
+	}
+	
+#wrapper{
+	width: 320px;
+	background: url(images/mobile-light/content_back.jpg);	
+	margin: auto;		
+	}
+#main_menu{
+	width: 100%;
+	height: 55px;
+	background: url(images/mobile-light/top_menu_back.png) repeat-x 0px -6px;	
+	}	
+ul{
+	margin: 0px;
+	list-style: none;
+	}
+#main_menu ul{
+	width: 320px;	
+	margin: auto;	
+	}	
+#main_menu li a{
+	float: left;
+	color: #fff;
+	margin: 10px 0 0 20px
+	}
+#landscape_logo{
+	width: 100%;	
+	height: 135px;
+	background: url(images/mobile-light/header_logo_back.png) repeat-x 0px 55px;				
+	}			
+#header_logo{
+	width: 320px;
+	height: 135px;
+	display: block;
+	background: url(images/mobile-light/header_logo.png) no-repeat;	
+	margin: 10px 0 0 0;
+	}	
+hr{
+	height: 1px;
+	width: 100%;	
+	background: url(images/mobile-light/separator-dots.png) repeat-x;
+	border: 0px;
+	}	
+#content{
+	width: 320px;
+	margin: auto;	
+	}	
+
+#content .section { 
+	padding:0 10px; 
+	}
+	
+.main_titles,
+.entry-title {
+	font-family: georgia;
+	font-size: 19px;
+	letter-spacing: -1px;
+	font-weight: normal;
+	margin: 0 0 10px 0;
+	}	
+p{  
+	margin:  0 0 5px 0;
+	}	
+.read_more{
+	color: #911b1b;
+	text-decoration: none;
+	font-family: times new roman;
+	font-size: 17px;
+	letter-spacing: -1px;	
+	}	
+.post{
+	margin: 10px 0 0 0;
+	}	
+.post_date{
+	height: 44px;
+	width: 44px;	
+	float: left;
+	margin: 0 0 5px 0;
+	}	
+.post_date span{
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	text-align: center;
+	}	
+.day_date{
+	height: 29px;
+	width: 44px;	
+	border-bottom: 1px solid #888580;
+	background: #2d292a url(images/mobile-light/date_rounded_corners.gif) no-repeat;	
+	font-family: georgia;
+	font-size: 23px;
+	color: #f0eee8;
+	line-height: 30px;	
+	}
+.month_date{
+	height: 14px;
+	width: 44px;		
+	background: #c4c3ba url(images/mobile-light/date_rounded_corners.gif) bottom no-repeat;	
+	font-weight: bold;
+	color: #3d393a;
+	line-height: 10px;
+	}		
+.post_title_author{	
+	float: left;
+	margin: 0 0 0 10px;	
+	}	
+.post_author{
+	font-weight: bold
+	}	
+.post_titles,
+.post_titles a{ 
+	color:#3D393A;
+	font-family: georgia;
+	text-decoration:none;
+	font-size: 17px;
+	letter-spacing: -1px;
+	font-weight: normal;
+	margin: 3px 0 3px 0;
+	}
+.post p{	
+	clear: both;
+	}	
+	
+	#footer {
+		margin-top:15px;
+		padding-top:5px;
+		background:url('images/mobile-light/shadow-border.png');
+	}
+	
+	#footer ul  li.last {
+		background:transparent;
+	}
+	
+	#footer ul  li {
+		padding-right:5px;
+		padding-left:5px;
+		background:url('images/mobile-light/footer_pixel.png') no-repeat right bottom;
+		display:inline-block;
+		margin:0;
+		height:14px;
+		text-align:center;
+	}
+	#footer ul {
+		height:30px;
+		padding-top:20px;
+		background:#2d292a;
+		width:100%;
+		text-align:center;
+	}
+	
+	
+	#footer a {
+		color:#f3f2f0;
+		text-decoration:none;
+	}
+	
+
+	form label 																{ color:#911B1B;padding:8px 0 0 2px;display:block;font-size:11px;font-family:georgia, sans serif;font-weight:bold; }
+	form input																{ width:285px;height:24px;line-height:24px;padding-top:4px;background:#ffffff;border:1px solid #e0dadb;color:#271C0D; 								}
+	form textarea 															{ width:285px;display:inline-block;font-size:12px;padding-top:2px;font-family:arial,verdana, serif;height:160px;background:#ffffff;border:1px solid #e0dadb;color:#271C0D;								}		
+	
+	form div.input  														{ width:287px;height:34px; }
+	form div.textarea 														{ width:287px;height:168px; }
+	
+	div.img img 															{ background:#f9f8f3;border:1px solid #e0dadb;background:#f0f0f0;padding:4px;												}
+	
+	.form-button 														{ text-indent:9999px;overflow:hidden;background:url('images/mobile-brown/form-button.png') no-repeat center top;color:#fff;height:35px;line-height:25px;display:block;text-decoration:none;font-size:12px;width:115px;margin-top:10px;border:none; }
+	.form-button:link 													{ }
+	.form-button:visited 												{ }
+	.form-button:hover 													{ background-position:center center; }
+	.form-button:active													{ background-position:center bottom; }
+	
+	.all-comments 														{ list-style-type:none; }
+	.img.comment														{ float:left; }
+	
+	.tags a,
+	.author 															{ font-weight:bold;font-family:arial, verdana, serif;line-height:11px;text-decoration:none;color:#911B1B; }	
+	
+	.comment-reply-link, 
+	.comment-edit-link 													{ color:#911B1B; }
+	.comment-info .author 												{ display:block;float:left;font-weight:bold;color:#911B1B;width:215px; }
+	.comment-info .date 												{ display:block;float:left;font-size:11px;width:215px; }
+	.comment-body 														{ display:block;float:left;width:300px; }
+	.all-comments h5 													{ float:left;width:200px; }
+	.img																{ margin:0 4px 0 0; }
+	
+	.title-categ														{ background:url('images/light/back-ribon.png') no-repeat center center;display:block;height:60px;line-height:40px;font-family:georgia,'trebuchet ms';text-align:center;margin:15px 0 5px 0;font-weight:normal;color:#faf2ec;font-size:18px; }
+	.img  																{ float:left; }
+	.product-post 														{ padding-bottom:5px;height:110px;margin-top:5px; }
+	.product-post p 													{ display:block;padding-top:0;margin-top:0; }
+	.product-post h3 													{ width:100%;padding-bottom:3px; }
+	.product-post span 													{ float:right;font-weight:normal;font-style:italic; }
+	.product-post img													{ background: none repeat scroll 0 0 #F9F8F3;border: 1px solid #E0DADB;padding:4px;margin:0 4px 0 0;float:left; }
+	
+	#content input.submit												{ width:115px;height:35px;background:url('images/mobile-light/form-button.png') no-repeat center top;line-height:15px;border:none;color:#fff;margin-top:5px; }
+	#contact-form .error 												{ color:red; }

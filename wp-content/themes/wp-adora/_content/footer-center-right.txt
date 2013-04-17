@@ -1,0 +1,6 @@
+<p><strong>Lorem Ipsum</strong> is simply dummy text of the print and typesetting.</p>
+
+<div class="img sptb wd130"><img src="http://www.ermark.ro/wordpress/wp-content/themes/adora/images/image-nicolae.png" alt="Candice Deis" /></div>
+
+<p>Lorem Ipsum is simply dummy text of the print.</p>
+[more href="#"]read more[/more]
