@@ -18,7 +18,7 @@
 		if ($rating>0 && $post_id>0){
 			echo wp_erm_rating::post_add_rating($post_id, $rating);
 		}else{
-			echo json_encode(array('success'=>0,'err'=>100,'data'=>'['.$post_id + ' - ' + $rating.']','message'=>__('An error has ocured!','adora')));
+			echo json_encode(array('success'=>0,'err'=>100,'data'=>'['.$post_id + ' - ' + $rating.']','message'=>__('An error has occurred!','adora')));
 		}
 	}
 
